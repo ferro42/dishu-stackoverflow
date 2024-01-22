@@ -1,0 +1,111 @@
+.user-details-container{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between;
+
+}
+.user-details{
+    display: flex;
+    align-items: flex-start;
+}
+.user-name{
+    padding-left:20px;
+}
+.user-name p{
+    color:#565656;
+}
+.edit-profile-btn{
+    padding:8px 10px;
+    border:1px solid #7e7e7e;
+    border-radius: 2px;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.edit-profile-btn:hover{
+    background-color:#f5f9fc
+}
+.edit-profile-title{
+    padding: 20px 0px;
+    border-bottom: solid 1px #dbd9d9;
+}
+.edit-profile-title-2{
+    color:grey;
+    font-weight: 400;
+}
+
+.logintable{
+    border: 1px solid rgb(193, 93, 5);
+    height:150px;
+    margin-top:10px;
+    width:400px; 
+    
+}
+.text-left{
+    color:#D5DDE5;
+    background:#ca7b0c;
+    border-bottom:4px solid #9ea7af;
+    border-right: 1px solid #c37234;
+    font-size:15px;
+    font-weight: 400;
+    padding:10px;
+    text-align:left;
+    text-shadow: 0 1px 1px rgba(19, 18, 16, 0.974);
+    vertical-align:middle;
+}
+.trlogin {
+    border-top: 1px solid #313648;
+    color:#0c0a08;
+    font-size:17px;
+    font-weight:normal;
+    text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+  }
+.table-container {
+max-height: 225px; 
+overflow-y: auto;
+}
+.edit-profile-form{
+    padding: 20px;
+    border:1px solid #dbd9d9;
+    border-radius: 5px;
+}
+.edit-profile-form label h3{
+    margin:0%;
+    padding: 3px 0px;
+}
+.edit-profile-form label p{
+    margin: 0%;
+    padding: 3px 0px;
+}
+.edit-profile-form label input, .edit-profile-form label textarea{
+    padding: 5px;
+    margin-bottom: 20px;
+    border: solid 1px #dbd9d9;
+    width: 50%;
+}
+.user-submit-btn{
+    padding:14px 10px;
+    background-color: #0a95ff;
+    color: white;
+    border:none;
+    border-radius:2px;
+    transition: 0.3s;
+    cursor:pointer;
+}
+.user-submit-btn:hover{
+    background-color:#0074cc;
+}
+.user-cancel-btn{
+    padding: 14px 10px;
+    color:#0a95ff;
+    background-color:transparent;
+    border:none;
+    margin-left: 10px;
+    cursor:pointer;
+}
+ .badges{
+    max-width: 30px;
+    max-height: 30px;
+}

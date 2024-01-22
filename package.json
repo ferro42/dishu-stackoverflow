@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "razorpay": "^2.9.2",
+    "react-device-detect": "^2.2.3"
+  }
+}
